@@ -1,0 +1,23 @@
+{
+  "name": "random-number-api",
+  "version": "1.0.0",
+  "description": "node api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles",
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js"
+  },
+  "author": "Hugo Queiros",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "node-fetch": "^3.3.2"
+  }
+}
